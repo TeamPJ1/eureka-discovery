@@ -1,0 +1,5 @@
+spring:
+  cloud:
+    config:
+      name: eureka-discovery
+      uri: ${SPRING_CONFIG_URI:http://localhost:8888}
